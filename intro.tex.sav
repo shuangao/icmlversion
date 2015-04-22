@@ -1,0 +1,9 @@
+﻿Over the recent few years, Convolutional Neural Network (CNN) shows its potential to replace the human engineered features, such as SIFT\cite{lowe1999object}, SURF\cite{bay2006surf} and HOG\cite{dalal2005histograms} etc, in real object recognition tasks.  The success of CNN on large scale image set started from Krizhevsky et al\cite{krizhevsky2012imagenet} and their 8 layer model AlexNet in 2012 ImageNet Large-Scale Visual Recognition Challenge (ILSVRC2012), reaching a on top-5 83\% accuracy . Soon after, many attempts have been made to improve the model of Krizhevsky.
+By reducing the size of the receptive field and stride, Zeiler and Fergus improve AlexNet by 1.7\% on top 5 accuracy\cite{zeiler2014visualizing}. With the help of high performances computing systems, such as GPU and large scale distributed clusters, it is possible for researchers to explore larger and more complex architecture. By both adding extra convolutional layers between two pooling layers and reduced the receptive window size, Simonyan and Zisserman built a 19 layer very deep CNN and achieved 92.5\% top-5 accuracy\cite{simonyan2014very}. While the AlexNet-like deep CNNs conquered ILSVRC, Szegedy et al built a 22 layers deep network, GoogLeNet \cite{szegedy2014going} and won the 1st prize on ILSVRC2014, reaching a astonishing 93.33\% top-5 accuracy.
+
+Since these CNN models are trained on very large image data set, they have strong generalization ability and can be applied in many other scenarios. Applying the model pre-trained from ILSVRC dataset on other object recognition dataset shows some exciting results. 
+Wei et al applied \cite{wei2014cnn}
+Chatfield et al. applied their pre-trained model on Caltech-101 and Caltech-256 \cite{Chatfield14}
+
+Local features like SIFT or SURF presents an intuitive interpretation of spatial property that is invariant with some transformations such as scaling and rotation. 
+

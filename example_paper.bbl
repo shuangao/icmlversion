@@ -1,0 +1,118 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agrawal et~al.(2014)Agrawal, Girshick, and
+  Malik]{agrawal2014analyzing}
+Agrawal, Pulkit, Girshick, Ross, and Malik, Jitendra.
+\newblock Analyzing the performance of multilayer neural networks for object
+  recognition.
+\newblock In \emph{Computer Vision--ECCV 2014}, pp.\  329--344. Springer, 2014.
+
+\bibitem[Bay et~al.(2006)Bay, Tuytelaars, and Van~Gool]{bay2006surf}
+Bay, Herbert, Tuytelaars, Tinne, and Van~Gool, Luc.
+\newblock Surf: Speeded up robust features.
+\newblock In \emph{Computer vision--ECCV 2006}, pp.\  404--417. Springer, 2006.
+
+\bibitem[Bossard et~al.(2014)Bossard, Guillaumin, and Van~Gool]{bossard14}
+Bossard, Lukas, Guillaumin, Matthieu, and Van~Gool, Luc.
+\newblock Food-101 -- mining discriminative components with random forests.
+\newblock In \emph{European Conference on Computer Vision}, 2014.
+
+\bibitem[Chatfield et~al.(2014)Chatfield, Simonyan, Vedaldi, and
+  Zisserman]{Chatfield14}
+Chatfield, K., Simonyan, K., Vedaldi, A., and Zisserman, A.
+\newblock Return of the devil in the details: Delving deep into convolutional
+  nets.
+\newblock In \emph{British Machine Vision Conference}, 2014.
+
+\bibitem[Dalal \& Triggs(2005)Dalal and Triggs]{dalal2005histograms}
+Dalal, Navneet and Triggs, Bill.
+\newblock Histograms of oriented gradients for human detection.
+\newblock In \emph{Computer Vision and Pattern Recognition, 2005. CVPR 2005.
+  IEEE Computer Society Conference on}, volume~1, pp.\  886--893. IEEE, 2005.
+
+\bibitem[Glorot \& Bengio(2010)Glorot and Bengio]{glorot2010understanding}
+Glorot, Xavier and Bengio, Yoshua.
+\newblock Understanding the difficulty of training deep feedforward neural
+  networks.
+\newblock In \emph{International conference on artificial intelligence and
+  statistics}, pp.\  249--256, 2010.
+
+\bibitem[Jia et~al.(2014)Jia, Shelhamer, Donahue, Karayev, Long, Girshick,
+  Guadarrama, and Darrell]{jia2014caffe}
+Jia, Yangqing, Shelhamer, Evan, Donahue, Jeff, Karayev, Sergey, Long, Jonathan,
+  Girshick, Ross, Guadarrama, Sergio, and Darrell, Trevor.
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock In \emph{Proceedings of the ACM International Conference on
+  Multimedia}, pp.\  675--678. ACM, 2014.
+
+\bibitem[Kawano \& Yanai(2014)Kawano and Yanai]{kawano14c}
+Kawano, Y. and Yanai, K.
+\newblock Automatic expansion of a food image dataset leveraging existing
+  categories with domain adaptation.
+\newblock In \emph{Proc. of ECCV Workshop on Transferring and Adapting Source
+  Knowledge in Computer Vision (TASK-CV)}, 2014.
+
+\bibitem[Krizhevsky et~al.(2012)Krizhevsky, Sutskever, and
+  Hinton]{krizhevsky2012imagenet}
+Krizhevsky, Alex, Sutskever, Ilya, and Hinton, Geoffrey~E.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In \emph{Advances in neural information processing systems}, pp.\
+  1097--1105, 2012.
+
+\bibitem[Lin et~al.(2013)Lin, Chen, and Yan]{lin2013network}
+Lin, Min, Chen, Qiang, and Yan, Shuicheng.
+\newblock Network in network.
+\newblock \emph{arXiv preprint arXiv:1312.4400}, 2013.
+
+\bibitem[Lowe(1999)]{lowe1999object}
+Lowe, David~G.
+\newblock Object recognition from local scale-invariant features.
+\newblock In \emph{Computer vision, 1999. The proceedings of the seventh IEEE
+  international conference on}, volume~2, pp.\  1150--1157. Ieee, 1999.
+
+\bibitem[Simonyan \& Zisserman(2014)Simonyan and Zisserman]{simonyan2014very}
+Simonyan, Karen and Zisserman, Andrew.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock \emph{arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem[Singh et~al.(2012)Singh, Gupta, and Efros]{singh2012unsupervised}
+Singh, Saurabh, Gupta, Abhinav, and Efros, Alexei~A.
+\newblock Unsupervised discovery of mid-level discriminative patches.
+\newblock In \emph{Computer Vision--ECCV 2012}, pp.\  73--86. Springer, 2012.
+
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov]{srivastava2014dropout}
+Srivastava, Nitish, Hinton, Geoffrey, Krizhevsky, Alex, Sutskever, Ilya, and
+  Salakhutdinov, Ruslan.
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock \emph{The Journal of Machine Learning Research}, 15\penalty0
+  (1):\penalty0 1929--1958, 2014.
+
+\bibitem[Szegedy et~al.(2014)Szegedy, Liu, Jia, Sermanet, Reed, Anguelov,
+  Erhan, Vanhoucke, and Rabinovich]{szegedy2014going}
+Szegedy, Christian, Liu, Wei, Jia, Yangqing, Sermanet, Pierre, Reed, Scott,
+  Anguelov, Dragomir, Erhan, Dumitru, Vanhoucke, Vincent, and Rabinovich,
+  Andrew.
+\newblock Going deeper with convolutions.
+\newblock \emph{arXiv preprint arXiv:1409.4842}, 2014.
+
+\bibitem[Zeiler \& Fergus(2014)Zeiler and Fergus]{zeiler2014visualizing}
+Zeiler, Matthew~D and Fergus, Rob.
+\newblock Visualizing and understanding convolutional networks.
+\newblock In \emph{Computer Vision--ECCV 2014}, pp.\  818--833. Springer, 2014.
+
+\bibitem[Zhou et~al.(2014)Zhou, Lapedriza, Xiao, Torralba, and
+  Oliva]{NIPS2014_Zhou}
+Zhou, Bolei, Lapedriza, Agata, Xiao, Jianxiong, Torralba, Antonio, and Oliva,
+  Aude.
+\newblock Learning deep features for scene recognition using places database.
+\newblock In Ghahramani, Z., Welling, M., Cortes, C., Lawrence, N.D., and
+  Weinberger, K.Q. (eds.), \emph{Advances in Neural Information Processing
+  Systems 27}, pp.\  487--495. Curran Associates, Inc., 2014.
+
+\end{thebibliography}

@@ -1,0 +1,4 @@
+﻿In this section, we will discuss some details about the datasets and models used for our experiments.
+
+\subsection{Food Datasets}
+Besides ILSVRC dataset, there are many popular benchmark datasets for image classification tasks such as Caltech dataset and CIFAR dataset, which contain hundreds of classes. However, in this paper, we try to focus on a more specific area, food classification. 

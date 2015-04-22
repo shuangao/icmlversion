@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% ICML 2015 EXAMPLE LATEX SUBMISSION FILE %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use the following line _only_ if you're still using LaTeX 2.09.
+%\documentstyle[icml2015,epsf,natbib]{article}
+% If you rely on Latex2e packages, like most moden people use this:
+\documentclass{article}
+
+% use Times
+\usepackage{times}
+% For figures
+\usepackage{graphicx} % more modern
+%\usepackage{epsfig} % less modern
+\usepackage{subfigure}
+
+% For citations
+\usepackage{natbib}
+
+% For algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% As of 2011, we use the hyperref package to produce hyperlinks in the
+% resulting PDF.  If this breaks your system, please commend out the
+% following usepackage line and replace \usepackage{icml2015} with
+% \usepackage[nohyperref]{icml2015} above.
+\usepackage{hyperref}
+
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+% Employ the following version of the ``usepackage'' statement for
+% submitting the draft version of the paper for review.  This will set
+% the note in the first column to ``Under review.  Do not distribute.''
+\usepackage{icml2015}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{subfigure}
+\usepackage{lipsum}
+
+% Employ this version of the ``usepackage'' statement after the paper has
+% been accepted, when creating the final version.  This will set the
+% note in the first column to ``Proceedings of the...''
+%\usepackage[accepted]{icml2015}
+
+
+% The \icmltitle you define below is probably too long as a header.
+% Therefore, a short form for the running title is supplied here:
+\icmltitlerunning{Transfer Learning for Deep Convolutional Neural Network on Food Image Data}
+
+\begin{document}
+
+\twocolumn[
+\icmltitle{Transfer Learning for Deep Convolutional Neural Network on Food Image Data}
+
+% It is OKAY to include author information, even for blind
+% submissions: the style file will automatically remove it for you
+% unless you've provided the [accepted] option to the icml2015
+% package.
+\icmlauthor{Shuang Ao}{sao@uwo.ca}
+\icmladdress{epartment of Computer Science\\
+Western University\\
+London, Ontario\\
+Canada}
+\icmlauthor{Charles X. Ling}{email@coauthordomain.edu}
+\icmladdress{Department of Computer Science\\
+Western University\\
+London, Ontario \\
+Canada}
+
+% You may provide any keywords that you
+% find helpful for describing your paper; these are used to populate
+% the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{boring formatting information, machine learning, ICML}
+
+\vskip 0.3in
+]
+
+\begin{abstract}
+Deep Convolutional Neural Network (CNN) has drawn great attention due to its performance in object recognition tasks. However, we are still not knowledgeable enough to fully understand its  principle. In this paper, we try to transfer the knowledge of Deep CNN learned from large amount of images on our food recognition task and discuss the special architecture of Incpetion in GoogLeNet to reveal some of the reason for its success. We also conduct some transfer learning experiments to simulate real world recognition task when the labeled images are rare in our food datasets. Deep CNN shows its strong generalization ability in transfer learning across two datasets with little overlap.
+\end{abstract}
+
+\section{Introduction}
+% no \IEEEPARstart
+\input{intro.tex}
+
+\section{Experimental Setup}\label{exp}
+\input{expsetup.tex}
+
+\section{Experimental Discuss}\label{discuss}
+\input{discuss.tex}
+
+\section{Conclusion}
+\input{conclusion.tex}
+
+% Acknowledgements should only appear in the accepted version.
+\section*{Acknowledgments}
+
+
+
+
+% In the unusual situation where you want a paper to appear in the
+% references without citing it in the main text, use \nocite
+\nocite{langley00}
+
+\bibliography{research}
+\bibliographystyle{icml2015}
+
+\end{document}
+
+
+% This document was modified from the file originally made available by
+% Pat Langley and Andrea Danyluk for ICML-2K. This version was
+% created by Lise Getoor and Tobias Scheffer, it was slightly modified
+% from the 2010 version by Thorsten Joachims & Johannes Fuernkranz,
+% slightly modified from the 2009 version by Kiri Wagstaff and
+% Sam Roweis's 2008 version, which is slightly modified from
+% Prasad Tadepalli's 2007 version which is a lightly
+% changed version of the previous year's version by Andrew Moore,
+% which was in turn edited from those of Kristian Kersting and
+% Codrina Lauth. Alex Smola contributed to the algorithmic style files.

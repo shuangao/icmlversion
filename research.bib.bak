@@ -1,0 +1,757 @@
+@article{kpalma2007overview,
+  title={An overview of advances of pattern recognition systems in computer vision},
+  author={Kpalma, Kidiyo and Ronsin, Joseph and others},
+  journal={Vision Systems},
+  year={2007}
+}
+@article{hinton06,
+  author    = {Geoffrey E. Hinton and
+               Simon Osindero and
+               Yee Whye Teh},
+  title     = {A Fast Learning Algorithm for Deep Belief Nets},
+  journal   = {Neural Computation},
+  volume    = {18},
+  number    = {7},
+  year      = {2006},
+  pages     = {1527-1554},
+}
+@inproceedings{Berkes:2005,
+ author = {Berkes, Pietro},
+ title = {Handwritten digit recognition with nonlinear fisher discriminant analysis},
+ booktitle = {Proceedings of the 15th international conference on Artificial neural networks: formal models and their applications - Volume Part II},
+ series = {ICANN'05},
+ year = {2005},
+ isbn = {3-540-28755-8, 978-3-540-28755-1},
+ location = {Warsaw, Poland},
+ pages = {285--287},
+ numpages = {3},
+ url = {http://dl.acm.org/citation.cfm?id=1986079.1986132},
+ acmid = {1986132},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+ keywords = {digit recognition, feature extraction, nonlinear fisher discriminant analysis, pattern recognition},
+}
+
+@article{SVM99,
+  author    = {Olivier Chapelle and
+               Patrick Haffner and
+               Vladimir Vapnik},
+  title     = {Support vector machines for histogram-based image classification},
+  journal   = {IEEE Transactions on Neural Networks},
+  volume    = {10},
+  number    = {5},
+  year      = {1999},
+  pages     = {1055-1064},
+  ee        = {http://doi.ieeecomputersociety.org/10.1109/72.788646},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@inproceedings{LeCun12,
+  author    = {Yann LeCun},
+  title     = {Learning Invariant Feature Hierarchies},
+  booktitle = {ECCV Workshops (1)},
+  year      = {2012},
+  pages     = {496-505},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-33863-2_51},
+  crossref  = {DBLP:conf/eccv/2012w1},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@inproceedings{LeRMDCCDN12,
+  author    = {Quoc V. Le and
+               Marc'Aurelio Ranzato and
+               Rajat Monga and
+               Matthieu Devin and
+               Greg Corrado and
+               Kai Chen and
+               Jeffrey Dean and
+               Andrew Y. Ng},
+  title     = {Building high-level features using large scale unsupervised
+               learning},
+  booktitle = {ICML},
+  year      = {2012},
+  ee        = {http://icml.cc/discuss/2012/73.html},
+  crossref  = {DBLP:conf/icml/2012},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{AbbasnejadRR12,
+  author    = {M. Ehsan Abbasnejad and
+               Dhanesh Ramachandram and
+               Mandava Rajeswari},
+  title     = {A survey of the state of the art in learning the kernels},
+  journal   = {Knowl. Inf. Syst.},
+  volume    = {31},
+  number    = {2},
+  year      = {2012},
+  pages     = {193-221},
+  ee        = {http://dx.doi.org/10.1007/s10115-011-0404-6},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{Yann98,
+  author    = {Yann LeCun and
+               Patrick Haffner and
+               L{\'e}on Bottou and
+               Yoshua Bengio},
+  title     = {Object Recognition with Gradient-Based Learning},
+  booktitle = {Shape, Contour and Grouping in Computer Vision},
+  year      = {1999},
+  pages     = {319-},
+  ee        = {http://dx.doi.org/10.1007/3-540-46805-6_19},
+  crossref  = {DBLP:conf/shape/1999},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@inproceedings{CiresanIJCAI11,
+  author    = {Dan Claudiu Ciresan and
+               Ueli Meier and
+               Jonathan Masci and
+               Luca Maria Gambardella and
+               J{\"u}rgen Schmidhuber},
+  title     = {Flexible, High Performance Convolutional Neural Networks
+               for Image Classification},
+  booktitle = {IJCAI},
+  year      = {2011},
+  pages     = {1237-1242},
+  ee        = {http://ijcai.org/papers11/Papers/IJCAI11-210.pdf},
+  crossref  = {DBLP:conf/ijcai/2011},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{RanzatoNIPS06,
+  author    = {Marc'Aurelio Ranzato and
+               Christopher S. Poultney and
+               Sumit Chopra and
+               Yann LeCun},
+  title     = {Efficient Learning of Sparse Representations with an Energy-Based
+               Model},
+  booktitle = {NIPS},
+  year      = {2006},
+  pages     = {1137-1144},
+  ee        = {http://books.nips.cc/papers/files/nips19/NIPS2006_0804.pdf},
+  crossref  = {DBLP:conf/nips/2006},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{KrizhevskyNIPS12,
+  author    = {Alex Krizhevsky and
+               Ilya Sutskever and
+               Geoffrey E. Hinton},
+  title     = {ImageNet Classification with Deep Convolutional Neural Networks},
+  booktitle = {NIPS},
+  year      = {2012},
+  pages     = {1106-1114},
+  ee        = {http://books.nips.cc/papers/files/nips25/NIPS2012_0534.pdf},
+  crossref  = {DBLP:conf/nips/2012},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@article{Hinton02,
+  author    = {Geoffrey E. Hinton},
+  title     = {Training Products of Experts by Minimizing Contrastive Divergence},
+  journal   = {Neural Computation},
+  volume    = {14},
+  number    = {8},
+  year      = {2002},
+  pages     = {1771-1800},
+  ee        = {http://dx.doi.org/10.1162/089976602760128018},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@incollection{Hinton12,
+  author    = {Geoffrey E. Hinton},
+  title     = {A Practical Guide to Training Restricted Boltzmann Machines},
+  booktitle = {Neural Networks: Tricks of the Trade (2nd ed.)},
+  year      = {2012},
+  pages     = {599-619},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-35289-8_32},
+  crossref  = {DBLP:series/lncs/7700},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{SutskeverT10,
+  author    = {Ilya Sutskever and
+               Tijmen Tieleman},
+  title     = {On the Convergence Properties of Contrastive Divergence},
+  journal   = {Journal of Machine Learning Research - Proceedings Track},
+  volume    = {9},
+  year      = {2010},
+  pages     = {789-795},
+  ee        = {http://www.jmlr.org/proceedings/papers/v9/sutskever10a.html},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@article{Srivastava13,
+  author    = {Nitish Srivastava and
+               Ruslan Salakhutdinov and
+               Geoffrey E. Hinton},
+  title     = {Modeling Documents with Deep Boltzmann Machines},
+  journal   = {CoRR},
+  volume    = {abs/1309.6865},
+  year      = {2013},
+  ee        = {http://arxiv.org/abs/1309.6865},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{ErhanCBV10,
+  author    = {Dumitru Erhan and
+               Aaron C. Courville and
+               Yoshua Bengio and
+               Pascal Vincent},
+  title     = {Why Does Unsupervised Pre-training Help Deep Learning?},
+  journal   = {Journal of Machine Learning Research - Proceedings Track},
+  volume    = {9},
+  year      = {2010},
+  pages     = {201-208},
+  ee        = {http://www.jmlr.org/proceedings/papers/v9/erhan10a.html},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{SalakhutdinovH07,
+  author    = {Ruslan Salakhutdinov and
+               Geoffrey E. Hinton},
+  title     = {Learning a Nonlinear Embedding by Preserving Class Neighbourhood
+               Structure},
+  journal   = {Journal of Machine Learning Research - Proceedings Track},
+  volume    = {2},
+  year      = {2007},
+  pages     = {412-419},
+  ee        = {http://www.jmlr.org/proceedings/papers/v2/salakhutdinov07a.html},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{BengioICML09,
+  author    = {Yoshua Bengio and
+               J{\'e}r{\^o}me Louradour and
+               Ronan Collobert and
+               Jason Weston},
+  title     = {Curriculum learning},
+  booktitle = {ICML},
+  year      = {2009},
+  pages     = {6},
+  ee        = {http://doi.acm.org/10.1145/1553374.1553380},
+  crossref  = {DBLP:conf/icml/2009},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{Bengio13,
+  author    = {Yoshua Bengio and
+               Aaron C. Courville and
+               Pascal Vincent},
+  title     = {Representation Learning: A Review and New Perspectives},
+  journal   = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  volume    = {35},
+  number    = {8},
+  year      = {2013},
+  pages     = {1798-1828},
+  ee        = {http://doi.ieeecomputersociety.org/10.1109/TPAMI.2013.50},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@inproceedings{cho2011,
+  title={Enhanced gradient and adaptive learning rate for training restricted Boltzmann machines},
+  author={Cho, KyungHyun and Raiko, Tapani and Ihler, Alexander T},
+  booktitle={Proceedings of the 28th International Conference on Machine Learning (ICML-11)},
+  pages={105--112},
+  year={2011}
+}
+
+@article{GlorotB10,
+  author    = {Xavier Glorot and
+               Yoshua Bengio},
+  title     = {Understanding the difficulty of training deep feedforward
+               neural networks},
+  journal   = {Journal of Machine Learning Research - Proceedings Track},
+  volume    = {9},
+  year      = {2010},
+  pages     = {249-256},
+  ee        = {http://www.jmlr.org/proceedings/papers/v9/glorot10a.html},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@article{GlorotBB11,
+  author    = {Xavier Glorot and
+               Antoine Bordes and
+               Yoshua Bengio},
+  title     = {Deep Sparse Rectifier Neural Networks},
+  journal   = {Journal of Machine Learning Research - Proceedings Track},
+  volume    = {15},
+  year      = {2011},
+  pages     = {315-323},
+  ee        = {http://www.jmlr.org/proceedings/papers/v15/glorot11a/glorot11a.pdf},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{NairH10,
+  author    = {Vinod Nair and
+               Geoffrey E. Hinton},
+  title     = {Rectified Linear Units Improve Restricted Boltzmann Machines},
+  booktitle = {ICML},
+  year      = {2010},
+  pages     = {807-814},
+  ee        = {http://www.icml2010.org/papers/432.pdf},
+  crossref  = {DBLP:conf/icml/2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{martens2010deep,
+  title={Deep learning via Hessian-free optimization},
+  author={Martens, James},
+  booktitle={Proceedings of the 27th International Conference on Machine Learning (ICML-10)},
+  pages={735--742},
+  year={2010}
+}
+
+@inproceedings{LeNCLPN11,
+  author    = {Quoc V. Le and
+               Jiquan Ngiam and
+               Adam Coates and
+               Ahbik Lahiri and
+               Bobby Prochnow and
+               Andrew Y. Ng},
+  title     = {On optimization methods for deep learning},
+  booktitle = {ICML},
+  year      = {2011},
+  pages     = {265-272},
+  crossref  = {DBLP:conf/icml/2011},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@article{bengio2007scaling,
+  title={Scaling learning algorithms towards AI},
+  author={Bengio, Yoshua and LeCun, Yann},
+  journal={Large-Scale Kernel Machines},
+  volume={34},
+  year={2007}
+}
+@article{olshausen1996emergence,
+  title={Emergence of simple-cell receptive field properties by learning a sparse code for natural images},
+  author={Olshausen, Bruno A and others},
+  journal={Nature},
+  volume={381},
+  number={6583},
+  pages={607--609},
+  year={1996}
+}
+@inproceedings{LarochelleB08,
+  author    = {Hugo Larochelle and
+               Yoshua Bengio},
+  title     = {Classification using discriminative restricted Boltzmann
+               machines},
+  booktitle = {ICML},
+  year      = {2008},
+  pages     = {536-543},
+  ee        = {http://doi.acm.org/10.1145/1390156.1390224},
+  crossref  = {DBLP:conf/icml/2008},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@inproceedings{raina2009large,
+  title={Large-scale deep unsupervised learning using graphics processors.},
+  author={Raina, Rajat and Madhavan, Anand and Ng, Andrew Y},
+  booktitle={ICML},
+  volume={9},
+  pages={873--880},
+  year={2009}
+}
+
+@incollection{LeCunBOM12,
+  author    = {Yann LeCun and
+               L{\'e}on Bottou and
+               Genevieve B. Orr and
+               Klaus-Robert M{\"u}ller},
+  title     = {Efficient BackProp},
+  booktitle = {Neural Networks: Tricks of the Trade (2nd ed.)},
+  year      = {2012},
+  pages     = {9-48},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-35289-8_3},
+  crossref  = {DBLP:series/lncs/7700},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{BergstraB12,
+  author    = {James Bergstra and
+               Yoshua Bengio},
+  title     = {Random Search for Hyper-Parameter Optimization},
+  journal   = {Journal of Machine Learning Research},
+  volume    = {13},
+  year      = {2012},
+  pages     = {281-305},
+  ee        = {http://dl.acm.org/citation.cfm?id=2188395},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{BergstraBBK11,
+  author    = {James Bergstra and
+               R{\'e}mi Bardenet and
+               Yoshua Bengio and
+               Bal{\'a}zs K{\'e}gl},
+  title     = {Algorithms for Hyper-Parameter Optimization},
+  booktitle = {NIPS},
+  year      = {2011},
+  pages     = {2546-2554},
+  ee        = {http://books.nips.cc/papers/files/nips24/NIPS2011_1385.pdf},
+  crossref  = {DBLP:conf/nips/2011},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@article{snoek2012practical,
+  title={Practical Bayesian optimization of machine learning algorithms},
+  author={Snoek, Jasper and Larochelle, Hugo and Adams, Ryan P},
+  journal={arXiv preprint arXiv:1206.2944},
+  year={2012}
+}
+@article{cirecsan2010deep,
+  title={Deep, big, simple neural nets for handwritten digit recognition},
+  author={Cire{\c{s}}an, Dan Claudiu and Meier, Ueli and Gambardella, Luca Maria and Schmidhuber, J{\"u}rgen},
+  journal={Neural computation},
+  volume={22},
+  number={12},
+  pages={3207--3220},
+  year={2010},
+  publisher={MIT Press}
+}
+
+@inproceedings{glorot2011deep,
+  title={Deep Sparse Rectifier Networks},
+  author={Glorot, Xavier and Bordes, Antoine and Bengio, Yoshua},
+  booktitle={Proceedings of the 14th International Conference on Artificial Intelligence and Statistics. JMLR W\&CP Volume},
+  volume={15},
+  pages={315--323},
+  year={2011}
+}
+@inproceedings{seide2011conversational,
+  title={Conversational Speech Transcription Using Context-Dependent Deep Neural Networks.},
+  author={Seide, Frank and Li, Gang and Yu, Dong},
+  booktitle={INTERSPEECH},
+  pages={437--440},
+  year={2011}
+}
+@article{CoatesNL11,
+  author    = {Adam Coates and
+               Andrew Y. Ng and
+               Honglak Lee},
+  title     = {An Analysis of Single-Layer Networks in Unsupervised Feature
+               Learning},
+  journal   = {Journal of Machine Learning Research - Proceedings Track},
+  volume    = {15},
+  year      = {2011},
+  pages     = {215-223},
+  ee        = {http://www.jmlr.org/proceedings/papers/v15/coates11a/coates11a.pdf},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{pelleg1999accelerating,
+  title={Accelerating exact k-means algorithms with geometric reasoning},
+  author={Pelleg, Dan and Moore, Andrew},
+  booktitle={Proceedings of the fifth ACM SIGKDD international conference on Knowledge discovery and data mining},
+  pages={277--281},
+  year={1999},
+  organization={ACM}
+}
+@inproceedings{pelleg2000x,
+  title={X-means: Extending K-means with Efficient Estimation of the Number of Clusters.},
+  author={Pelleg, Dan and Moore, Andrew W and others},
+  booktitle={ICML},
+  pages={727--734},
+  year={2000}
+}
+@inproceedings{gibou2002fast,
+  title={A fast hybrid k-means level set algorithm for segmentation},
+  author={Gibou, Fr{\'e}d{\'e}ric and Fedkiw, Ronald},
+  booktitle={4th Annual Hawaii International Conference on Statistics and Mathematics},
+  pages={281--291},
+  year={2002}
+}
+
+@inproceedings{csurka2004visual,
+  title={Visual categorization with bags of keypoints},
+  author={Csurka, Gabriella and Dance, Christopher and Fan, Lixin and Willamowski, Jutta and Bray, C{\'e}dric},
+  booktitle={Workshop on statistical learning in computer vision, ECCV},
+  volume={1},
+  pages={22},
+  year={2004}
+}
+@inproceedings{lazebnik2006beyond,
+  title={Beyond bags of features: Spatial pyramid matching for recognizing natural scene categories},
+  author={Lazebnik, Svetlana and Schmid, Cordelia and Ponce, Jean},
+  booktitle={Computer Vision and Pattern Recognition, 2006 IEEE Computer Society Conference on},
+  volume={2},
+  pages={2169--2178},
+  year={2006},
+  organization={IEEE}
+}
+
+@article{quattoni2009recognizing,
+  title={Recognizing indoor scenes},
+  author={Quattoni, Ariadna and Torralba, Antonio},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2009},
+  year={2009}
+}
+
+@article{desikan2006automated,
+  title={An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest},
+  author={Desikan, Rahul S and S{\'e}gonne, Florent and Fischl, Bruce and Quinn, Brian T and Dickerson, Bradford C and Blacker, Deborah and Buckner, Randy L and Dale, Anders M and Maguire, R Paul and Hyman, Bradley T and others},
+  journal={Neuroimage},
+  volume={31},
+  number={3},
+  pages={968--980},
+  year={2006},
+  publisher={Elsevier}
+}
+@inproceedings{arthur2007k,
+  title={k-means++: The advantages of careful seeding},
+  author={Arthur, David and Vassilvitskii, Sergei},
+  booktitle={Proceedings of the eighteenth annual ACM-SIAM symposium on Discrete algorithms},
+  pages={1027--1035},
+  year={2007},
+  organization={Society for Industrial and Applied Mathematics}
+}
+
+@inproceedings{GrosseRKN07,
+  author    = {Roger Grosse and
+               Rajat Raina and
+               Helen Kwong and
+               Andrew Y. Ng},
+  title     = {Shift-Invariance Sparse Coding for Audio Classification},
+  booktitle = {UAI},
+  year      = {2007},
+  pages     = {149-158},
+  ee        = {http://uai.sis.pitt.edu/displayArticleDetails.jsp?mmnu=1{\&}smnu=2{\&}article_id=1685{\&}proceeding_id=23},
+  crossref  = {DBLP:conf/uai/2007},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@article{powers2011evaluation,
+  title={Evaluation: From precision, recall and f-measure to roc., informedness, markedness \& correlation},
+  author={Powers, DMW},
+  journal={Journal of Machine Learning Technologies},
+  volume={2},
+  number={1},
+  pages={37--63},
+  year={2011}
+}
+
+@article{davies1979cluster,
+  title={A cluster separation measure},
+  author={Davies, David L and Bouldin, Donald W},
+  journal={Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  number={2},
+  pages={224--227},
+  year={1979},
+  publisher={IEEE}
+}
+
+@article{dunn1973fuzzy,
+  title={A fuzzy relative of the ISODATA process and its use in detecting compact well-separated clusters},
+  author={Dunn, Joseph C},
+  year={1973},
+  publisher={Taylor \& Francis}
+}
+
+@book{mackay2003information,
+  title={Information theory, inference and learning algorithms},
+  author={MacKay, David JC},
+  year={2003},
+  publisher={Cambridge university press}
+}
+@article{peng2005feature,
+  title={Feature selection based on mutual information criteria of max-dependency, max-relevance, and min-redundancy},
+  author={Peng, Hanchuan and Long, Fuhui and Ding, Chris},
+  journal={Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  volume={27},
+  number={8},
+  pages={1226--1238},
+  year={2005},
+  publisher={IEEE}
+}
+
+@inproceedings{buades2005non,
+  title={A non-local algorithm for image denoising},
+  author={Buades, Antoni and Coll, Bartomeu and Morel, J-M},
+  booktitle={Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on},
+  volume={2},
+  pages={60--65},
+  year={2005},
+  organization={IEEE}
+}
+@article{maurer2003linear,
+  title={A linear time algorithm for computing exact Euclidean distance transforms of binary images in arbitrary dimensions},
+  author={Maurer Jr, Calvin R and Qi, Rensheng and Raghavan, Vijay},
+  journal={Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  volume={25},
+  number={2},
+  pages={265--270},
+  year={2003},
+  publisher={IEEE}
+}
+
+@article{rehn2007network,
+  title={A network that uses few active neurones to code visual input predicts the diverse shapes of cortical receptive fields},
+  author={Rehn, Martin and Sommer, Friedrich T},
+  journal={Journal of computational neuroscience},
+  volume={22},
+  number={2},
+  pages={135--146},
+  year={2007},
+  publisher={Springer}
+}
+
+@inproceedings{lowe1999object,
+  title={Object recognition from local scale-invariant features},
+  author={Lowe, David G},
+  booktitle={Computer vision, 1999. The proceedings of the seventh IEEE international conference on},
+  volume={2},
+  pages={1150--1157},
+  year={1999},
+  organization={Ieee}
+}
+@inproceedings{ray1999determination,
+  title={Determination of number of clusters in k-means clustering and application in colour image segmentation},
+  author={Ray, Siddheswar and Turi, Rose H},
+  booktitle={Proceedings of the 4th international conference on advances in pattern recognition and digital techniques},
+  pages={137--143},
+  year={1999}
+}
+
+@incollection{bay2006surf,
+  title={Surf: Speeded up robust features},
+  author={Bay, Herbert and Tuytelaars, Tinne and Van Gool, Luc},
+  booktitle={Computer vision--ECCV 2006},
+  pages={404--417},
+  year={2006},
+  publisher={Springer}
+}
+@inproceedings{dalal2005histograms,
+  title={Histograms of oriented gradients for human detection},
+  author={Dalal, Navneet and Triggs, Bill},
+  booktitle={Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on},
+  volume={1},
+  pages={886--893},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{krizhevsky2012imagenet,
+  title={Imagenet classification with deep convolutional neural networks},
+  author={Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+  booktitle={Advances in neural information processing systems},
+  pages={1097--1105},
+  year={2012}
+}
+@article{figueiredo2002unsupervised,
+  title={Unsupervised learning of finite mixture models},
+  author={Figueiredo, Mario AT and Jain, Anil K.},
+  journal={Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  volume={24},
+  number={3},
+  pages={381--396},
+  year={2002},
+  publisher={IEEE}
+}
+
+
+@article{szegedy2014going,
+  title={Going deeper with convolutions},
+  author={Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew},
+  journal={arXiv preprint arXiv:1409.4842},
+  year={2014}
+}
+
+
+@incollection{zeiler2014visualizing,
+  title={Visualizing and understanding convolutional networks},
+  author={Zeiler, Matthew D and Fergus, Rob},
+  booktitle={Computer Vision--ECCV 2014},
+  pages={818--833},
+  year={2014},
+  publisher={Springer}
+}
+@article{simonyan2014very,
+  title={Very deep convolutional networks for large-scale image recognition},
+  author={Simonyan, Karen and Zisserman, Andrew},
+  journal={arXiv preprint arXiv:1409.1556},
+  year={2014}
+}
+
+@InProceedings{Chatfield14,
+  author       = "Chatfield, K. and Simonyan, K. and Vedaldi, A. and Zisserman, A.",
+  title        = "Return of the Devil in the Details: Delving Deep into Convolutional Nets",
+  booktitle    = "British Machine Vision Conference",
+  year         = "2014",
+}
+
+@article{wei2014cnn,
+  title={CNN: Single-label to multi-label},
+  author={Wei, Yunchao and Xia, Wei and Huang, Junshi and Ni, Bingbing and Dong, Jian and Zhao, Yao and Yan, Shuicheng},
+  journal={arXiv preprint arXiv:1406.5726},
+  year={2014}
+}
+
+@incollection{agrawal2014analyzing,
+  title={Analyzing the performance of multilayer neural networks for object recognition},
+  author={Agrawal, Pulkit and Girshick, Ross and Malik, Jitendra},
+  booktitle={Computer Vision--ECCV 2014},
+  pages={329--344},
+  year={2014},
+  publisher={Springer}
+}
+@InProceedings{kawano14c,
+ author="Kawano, Y. and Yanai, K.",
+ title="Automatic Expansion of a Food Image Dataset Leveraging Existing Categories with Domain Adaptation",
+ booktitle="Proc. of ECCV Workshop on Transferring and Adapting Source
+Knowledge in Computer Vision (TASK-CV)",
+ year="2014",
+}
+@inproceedings{bossard14,
+  title = {Food-101 -- Mining Discriminative Components with Random Forests},
+  author = {Bossard, Lukas and Guillaumin, Matthieu and Van Gool, Luc},
+  booktitle = {European Conference on Computer Vision},
+  year = {2014}
+}
+
+@article{srivastava2014dropout,
+  title={Dropout: A simple way to prevent neural networks from overfitting},
+  author={Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+  journal={The Journal of Machine Learning Research},
+  volume={15},
+  number={1},
+  pages={1929--1958},
+  year={2014},
+  publisher={JMLR. org}
+}
+
+@article{lin2013network,
+  title={Network in network},
+  author={Lin, Min and Chen, Qiang and Yan, Shuicheng},
+  journal={arXiv preprint arXiv:1312.4400},
+  year={2013}
+}
+
+@inproceedings{jia2014caffe,
+  title={Caffe: Convolutional architecture for fast feature embedding},
+  author={Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
+  booktitle={Proceedings of the ACM International Conference on Multimedia},
+  pages={675--678},
+  year={2014},
+  organization={ACM}
+}
+
+@inproceedings{glorot2010understanding,
+  title={Understanding the difficulty of training deep feedforward neural networks},
+  author={Glorot, Xavier and Bengio, Yoshua},
+  booktitle={International conference on artificial intelligence and statistics},
+  pages={249--256},
+  year={2010}
+}
+}
+
+@incollection{NIPS2014_Zhou,
+title = {Learning Deep Features for Scene Recognition using Places Database},
+author = {Zhou, Bolei and Lapedriza, Agata and Xiao, Jianxiong and Torralba, Antonio and Oliva, Aude},
+booktitle = {Advances in Neural Information Processing Systems 27},
+editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},
+pages = {487--495},
+year = {2014},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/5349-learning-deep-features-for-scene-recognition-using-places-database.pdf}
+}
+
+@incollection{singh2012unsupervised,
+  title={Unsupervised discovery of mid-level discriminative patches},
+  author={Singh, Saurabh and Gupta, Abhinav and Efros, Alexei A},
+  booktitle={Computer Vision--ECCV 2012},
+  pages={73--86},
+  year={2012},
+  publisher={Springer}
+}
