@@ -64,10 +64,10 @@ Krizhevsky, Alex, Sutskever, Ilya, and Hinton, Geoffrey~E.
 \newblock In \emph{Advances in neural information processing systems}, pp.\
   1097--1105, 2012.
 
-\bibitem[Lin et~al.(2013)Lin, Chen, and Yan]{lin2013network}
+\bibitem[Lin et~al.(2013)Lin, Chen, and Yan]{linNiN}
 Lin, Min, Chen, Qiang, and Yan, Shuicheng.
 \newblock Network in network.
-\newblock \emph{arXiv preprint arXiv:1312.4400}, 2013.
+\newblock \emph{CoRR}, abs/1312.4400, 2013.
 
 \bibitem[Lowe(1999)]{lowe1999object}
 Lowe, David~G.
@@ -78,7 +78,7 @@ Lowe, David~G.
 \bibitem[Simonyan \& Zisserman(2014)Simonyan and Zisserman]{simonyan2014very}
 Simonyan, Karen and Zisserman, Andrew.
 \newblock Very deep convolutional networks for large-scale image recognition.
-\newblock \emph{arXiv preprint arXiv:1409.1556}, 2014.
+\newblock \emph{CoRR}, abs/1409.1556, 2014.
 
 \bibitem[Singh et~al.(2012)Singh, Gupta, and Efros]{singh2012unsupervised}
 Singh, Saurabh, Gupta, Abhinav, and Efros, Alexei~A.

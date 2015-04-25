@@ -35,6 +35,10 @@
 % submitting the draft version of the paper for review.  This will set
 % the note in the first column to ``Under review.  Do not distribute.''
 \usepackage{icml2015}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{subfigure}
+\usepackage{lipsum}
 
 % Employ this version of the ``usepackage'' statement after the paper has
 % been accepted, when creating the final version.  This will set the
@@ -44,24 +48,27 @@
 
 % The \icmltitle you define below is probably too long as a header.
 % Therefore, a short form for the running title is supplied here:
-\icmltitlerunning{Submission and Formatting Instructions for ICML 2015}
+\icmltitlerunning{Transfer Learning for Deep Convolutional Neural Network on Food Image Data}
 
 \begin{document}
 
 \twocolumn[
-\icmltitle{Submission and Formatting Instructions for \\
-           International Conference on Machine Learning (ICML 2015)}
+\icmltitle{Transfer Learning for Deep Convolutional Neural Network on Food Image Data}
 
 % It is OKAY to include author information, even for blind
 % submissions: the style file will automatically remove it for you
 % unless you've provided the [accepted] option to the icml2015
 % package.
-\icmlauthor{Your Name}{email@yourdomain.edu}
-\icmladdress{Your Fantastic Institute,
-            314159 Pi St., Palo Alto, CA 94306 USA}
-\icmlauthor{Your CoAuthor's Name}{email@coauthordomain.edu}
-\icmladdress{Their Fantastic Institute,
-            27182 Exp St., Toronto, ON M6H 2T1 CANADA}
+\icmlauthor{Shuang Ao}{sao@uwo.ca}
+\icmladdress{epartment of Computer Science\\
+Western University\\
+London, Ontario\\
+Canada}
+\icmlauthor{Charles X. Ling}{email@coauthordomain.edu}
+\icmladdress{Department of Computer Science\\
+Western University\\
+London, Ontario \\
+Canada}
 
 % You may provide any keywords that you
 % find helpful for describing your paper; these are used to populate
@@ -72,32 +79,33 @@
 ]
 
 \begin{abstract}
-The purpose of this document is to provide both the basic paper template and
-submission guidelines.
+Deep Convolutional Neural Network (CNN) has drawn great attention due to its performance in object recognition tasks. However, we are still not knowledgeable enough to fully understand its principle. Lots of works have been done to discuss the success of AlexNet while for the new GoogLeNet, little work has done to analyze its architecture.  We design several transfer learning experiments on food recognition tasks for both AlexNet and GoogLeNet. By analyzing and comparing the results on both architectures, we try to reveal some of the reasons for the success of GoogLeNet. We also show that Deep CNN has strong generalization ability in transfer learning across two food datasets with little overlap.
 \end{abstract}
 
+\section{Introduction}
+% no \IEEEPARstart
+\input{intro.tex}
 
+\section{Experimental Setup}\label{exp}
+\input{expsetup.tex}
+
+\section{Experimental Discuss}\label{discuss}
+\input{discuss.tex}
+
+\section{Conclusion}
+\input{conclusion.tex}
 
 % Acknowledgements should only appear in the accepted version.
 \section*{Acknowledgments}
 
-\textbf{Do not} include acknowledgements in the initial version of
-the paper submitted for blind review.
 
-If a paper is accepted, the final camera-ready version can (and
-probably should) include acknowledgements. In this case, please
-place such acknowledgements in an unnumbered section at the
-end of the paper. Typically, this will include thanks to reviewers
-who gave useful comments, to colleagues who contributed to the ideas,
-and to funding agencies and corporate sponsors that provided financial
-support.
 
 
 % In the unusual situation where you want a paper to appear in the
 % references without citing it in the main text, use \nocite
 \nocite{langley00}
 
-\bibliography{example_paper}
+\bibliography{research}
 \bibliographystyle{icml2015}
 
 \end{document}

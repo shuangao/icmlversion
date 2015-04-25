@@ -711,11 +711,18 @@ Knowledge in Computer Vision (TASK-CV)",
   publisher={JMLR. org}
 }
 
-@article{lin2013network,
-  title={Network in network},
-  author={Lin, Min and Chen, Qiang and Yan, Shuicheng},
-  journal={arXiv preprint arXiv:1312.4400},
-  year={2013}
+@article{DBLP:journals/corr/LinCY13,
+  author    = {Min Lin and
+               Qiang Chen and
+               Shuicheng Yan},
+  title     = {Network In Network},
+  journal   = {CoRR},
+  volume    = {abs/1312.4400},
+  year      = {2013},
+  url       = {http://arxiv.org/abs/1312.4400},
+  timestamp = {Mon, 06 Jan 2014 15:10:41 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/LinCY13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 
 @inproceedings{jia2014caffe,
@@ -744,7 +751,6 @@ editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. 
 pages = {487--495},
 year = {2014},
 publisher = {Curran Associates, Inc.},
-url = {http://papers.nips.cc/paper/5349-learning-deep-features-for-scene-recognition-using-places-database.pdf}
 }
 
 @incollection{singh2012unsupervised,
