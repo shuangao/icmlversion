@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.17)  24 APR 2015 14:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.17)  27 APR 2015 12:01
 entering extended mode
 **D:/LaTex_Files/icmlversion/example_paper.tex
 (D:/LaTex_Files/icmlversion/example_paper.tex
@@ -444,20 +444,24 @@ Overfull \hbox (24.51189pt too wide) in paragraph at lines 7--17
 <fig/sashimi.png, id=98, 727.96968pt x 319.1925pt>
 File: fig/sashimi.png Graphic file (type png)
  <use fig/sashimi.png>
-Package pdftex.def Info: fig/sashimi.png used on input line 37.
+Package pdftex.def Info: fig/sashimi.png used on input line 38.
 (pdftex.def)             Requested size: 363.98395pt x 159.59586pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 47.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 48.
 
 ("D:\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
- [3] [4 <D:/LaTex_Files/icmlversion/fig/sashimi.png>] [5]) (D:\LaTex_Files\icml
-version\conclusion.tex)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4 <D:/LaTex_Files/icmlversion/fig/sashimi.png>] [5])
+(D:\LaTex_Files\icmlversion\conclusion.tex)
 
 Package natbib Warning: Citation `langley00' undefined on input line 106.
 
@@ -489,13 +493,13 @@ Package rerunfilecheck Info: File `example_paper.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 6471 strings out of 493921
- 92149 string characters out of 3152883
- 294430 words of memory out of 3000000
- 9630 multiletter control sequences out of 15000+200000
+ 6472 strings out of 493921
+ 92158 string characters out of 3152883
+ 295505 words of memory out of 3000000
+ 9631 multiletter control sequences out of 15000+200000
  22647 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,12n,45p,1298b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,12n,45p,1298b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmex10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
 .pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MiKTeX 2.9/fon
@@ -505,9 +509,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Mi
 KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/
 utmr8a.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on example_paper.pdf (7 pages, 649743 bytes).
+Output written on example_paper.pdf (7 pages, 649966 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
+ 204 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
