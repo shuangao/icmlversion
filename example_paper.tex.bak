@@ -53,7 +53,7 @@
 \begin{document}
 
 \twocolumn[
-\icmltitle{Transfer Learning for Deep Convolutional Neural Network on Food Image Data}
+\icmltitle{Transfer Learning for Deep Convolutional Neural Network on Food Image Dataset}
 
 % It is OKAY to include author information, even for blind
 % submissions: the style file will automatically remove it for you
@@ -79,13 +79,8 @@ Canada}
 ]
 
 \begin{abstract}
-Deep Convolutional Neural Network (CNN) has recently achieved great successes in object recognition competitions, many of which have been accomplished using AlexNet architectures. Meanwhile, the explorations of the new born GoogLeNet remain insufficient and little work has been done to compare two different deep CNN architectures.
-Moreover, transfer learning with deep CNN has shown impressive results on benchmark datasets and can be an efficient tool for specific recognition tasks.
-In order to explore these two problems,
-we apply transfer learning for food images recognition task.  The results show that incorporating ImageNet dataset in pre-training can lead to improved performance over using only target labelled dataset. We also conduct empirical studies comparing the performance of AlexNet and GoogLeNet on this task. We also reveal that the small receptive field used in GoogLeNet can improve both training and computational efficiency.
-It is also shown in our experiments that deep CNN has strong generalization ability in transfer learning across two food datasets with little overlap categories even though the target dataset contains just a few labeled instances per category.
-
-
+Deep Convolutional Neural Network (CNN) has recently achieved great successes in object recognition competitions, many of which have been accomplished using AlexNet-like architectures. Meanwhile, the explorations of the recent GoogLeNet remain insufficient.% and little work has been done to compare two different deep CNN architectures.
+Moreover, transfer learning with deep CNN has shown impressive results on benchmark datasets and can be an efficient way for specific recognition tasks. In order to explore these two problems, we first apply transfer learning for the food images recognition task.  The results show that incorporating the ImageNet dataset in pre-training can lead to improved performance over using only the target labeled dataset. We also conduct empirical studies comparing the performance of AlexNet and GoogLeNet on this task. We reveal that the small receptive field used in GoogLeNet can improve both training and computational efficiency for transfer learning. We also show in our experiments that deep CNN has strong generalization ability in transfer learning across two food datasets.% with little overlap categories even though the target dataset contains just a few labeled instances per category.
 \end{abstract}
 
 \section{Introduction}
