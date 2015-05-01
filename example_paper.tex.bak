@@ -39,6 +39,11 @@
 \usepackage{booktabs}
 \usepackage{subfigure}
 \usepackage{lipsum}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
 
 % Employ this version of the ``usepackage'' statement after the paper has
 % been accepted, when creating the final version.  This will set the
@@ -48,7 +53,7 @@
 
 % The \icmltitle you define below is probably too long as a header.
 % Therefore, a short form for the running title is supplied here:
-\icmltitlerunning{Transfer Learning for Deep Convolutional Neural Network on Food Image Data}
+\icmltitlerunning{Transfer Learning for Deep Convolutional Neural Network on Food Image Dataset}
 
 \begin{document}
 
@@ -79,14 +84,14 @@ Canada}
 ]
 
 \begin{abstract}
-Deep Convolutional Neural Network (CNN) has recently achieved great successes in object recognition competitions, many of which have been accomplished using AlexNet-like architectures. Meanwhile, the explorations of the recent GoogLeNet remain insufficient. % and little work has been done to compare two different deep CNN architectures.
-Moreover, transfer learning with deep CNN has shown impressive results on benchmark datasets and can be an efficient way for specific recognition tasks. 
+Deep Convolutional Neural Network (CNN) has recently achieved great successes in object recognition competitions, many of which have been accomplished using AlexNet-like architecture. Meanwhile, the explorations of the recent GoogLeNet remain insufficient. % and little work has been done to compare two different deep CNN architectures.
+Moreover, transfer learning with deep CNN has shown impressive results on benchmark datasets and can be an efficient way for specific recognition tasks.
 %In order to explore these two problems,
-%we first apply transfer learning for the food images recognition task.  The results show that incorporating the ImageNet dataset in pre-training can lead to improved performance over using only the target labeled dataset. 
+%we first apply transfer learning for the food images recognition task.  The results show that incorporating the ImageNet dataset in pre-training can lead to improved performance over using only the target labeled dataset.
  In this paper, we mainly focus on transfer learning on the food images recognition task.
 The results of our experiments show that incorporating the ImageNet dataset pre-training model can lead to improved performance over using only the target labeled dataset.
-We also conduct empirical studies comparing the performance of AlexNet and GoogLeNet on this task. We reveal that the small receptive field used in GoogLeNet can improve both training and computational efficiency for transfer learning. We also show in our experiments that deep CNN has strong generalization ability in transfer learning across two food datasets. % with little overlap categories even though the target dataset contains just a few labeled instances per category.
-This may help people to further explore the potential of deep CNN.
+We also conduct empirical studies comparing the performance of AlexNet and GoogLeNet on this task and provide the state-of-the-art performance. We reveal that the small receptive field used in GoogLeNet can improve both training and computational efficiency for transfer learning. We also show in our experiments that deep CNN has strong generalization ability in transfer learning across two food datasets. % with little overlap categories even though the target dataset contains just a few labeled instances per category.
+Our findings may help people better understand the architectures of deep CNN and explore more potential of deep CNN.
 \end{abstract}
 
 \section{Introduction}

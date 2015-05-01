@@ -658,10 +658,12 @@
   publisher={Springer}
 }
 @article{simonyan2014very,
-  title={Very deep convolutional networks for large-scale image recognition},
-  author={Simonyan, Karen and Zisserman, Andrew},
-  journal={arXiv preprint arXiv:1409.1556},
-  year={2014}
+author    = {Karen Simonyan and
+               Andrew Zisserman},
+  title     = {Very Deep Convolutional Networks for Large-Scale Image Recognition},
+  journal   = {CoRR},
+  volume    = {abs/1409.1556},
+  year      = {2014},
 }
 
 @InProceedings{Chatfield14,
@@ -711,7 +713,13 @@ Knowledge in Computer Vision (TASK-CV)",
   publisher={JMLR. org}
 }
 
-@article{DBLP:journals/corr/LinCY13,
+@article{lin2013network,
+  title={Network in network},
+  author={Lin, Min and Chen, Qiang and Yan, Shuicheng},
+  journal={arXiv preprint arXiv:1312.4400},
+  year={2013}
+}
+@article{linNiN,
   author    = {Min Lin and
                Qiang Chen and
                Shuicheng Yan},
@@ -719,12 +727,7 @@ Knowledge in Computer Vision (TASK-CV)",
   journal   = {CoRR},
   volume    = {abs/1312.4400},
   year      = {2013},
-  url       = {http://arxiv.org/abs/1312.4400},
-  timestamp = {Mon, 06 Jan 2014 15:10:41 +0100},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/LinCY13},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
 }
-
 @inproceedings{jia2014caffe,
   title={Caffe: Convolutional architecture for fast feature embedding},
   author={Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
@@ -760,4 +763,21 @@ publisher = {Curran Associates, Inc.},
   pages={73--86},
   year={2012},
   publisher={Springer}
+}
+@inproceedings{Kawano:2014:FLR:2647868.2654869,
+ author = {Kawano, Yoshiyuki and Yanai, Keiji},
+ title = {FoodCam-256: A Large-scale Real-time Mobile Food RecognitionSystem Employing High-Dimensional Features and Compression of Classifier Weights},
+ booktitle = {Proceedings of the ACM International Conference on Multimedia},
+ series = {MM '14},
+ year = {2014},
+ isbn = {978-1-4503-3063-3},
+ location = {Orlando, Florida, USA},
+ pages = {761--762},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/2647868.2654869},
+ doi = {10.1145/2647868.2654869},
+ acmid = {2654869},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {food image recognition, mobile application, mobile visual recognition},
 }

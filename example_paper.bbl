@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -50,12 +50,21 @@ Jia, Yangqing, Shelhamer, Evan, Donahue, Jeff, Karayev, Sergey, Long, Jonathan,
 \newblock In \emph{Proceedings of the ACM International Conference on
   Multimedia}, pp.\  675--678. ACM, 2014.
 
-\bibitem[Kawano \& Yanai(2014)Kawano and Yanai]{kawano14c}
+\bibitem[Kawano \& Yanai(2014{\natexlab{a}})Kawano and Yanai]{kawano14c}
 Kawano, Y. and Yanai, K.
 \newblock Automatic expansion of a food image dataset leveraging existing
   categories with domain adaptation.
 \newblock In \emph{Proc. of ECCV Workshop on Transferring and Adapting Source
-  Knowledge in Computer Vision (TASK-CV)}, 2014.
+  Knowledge in Computer Vision (TASK-CV)}, 2014{\natexlab{a}}.
+
+\bibitem[Kawano \& Yanai(2014{\natexlab{b}})Kawano and Yanai]{Kawano:2014}
+Kawano, Yoshiyuki and Yanai, Keiji.
+\newblock Foodcam-256: A large-scale real-time mobile food recognitionsystem
+  employing high-dimensional features and compression of classifier weights.
+\newblock In \emph{Proceedings of the ACM International Conference on
+  Multimedia}, MM '14, pp.\  761--762, New York, NY, USA, 2014{\natexlab{b}}.
+  ACM.
+\newblock ISBN 978-1-4503-3063-3.
 
 \bibitem[Krizhevsky et~al.(2012)Krizhevsky, Sutskever, and
   Hinton]{krizhevsky2012imagenet}
